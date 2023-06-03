@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font2: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: #161616;
+}
+
+header{
+    height: 80px;
+    position: fixed;
+    color: transparent;
+}
+
+.btnClaroEscuro{
+    width: 60px;
+    height: 20px;
+    background-color: white;
+}
+
+.logo{     
+    height: 90%;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.bannerLogin p{
+    width: 80%;
+}
+
+.bannerLogin{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+    align-items: center;
+    font-family: var(--font2);
+    color: white;
+
+}
+
+.txtBannerLogin{
+    padding: 7% 0px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+    background: #212121;
+    box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.25);   
+    border-radius: 80px;
+}
+
+.txtBannerLogin p{
+ text-align: justify;
+ font-size: 17px;
+}
+
+.txtBannerLogin input{
+    background-color: #161616;
+    border: none;
+    height:30px;
+    width: 230px;
+    border-radius: 30%;
+
+}
+
+.txtBannerLogin h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    color: #09905F;
+}
+
+.esqueceuASenha {
+    text-decoration: none;
+    color: #09905F;
+    font-size: 10px;
+    width: 200px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.bannerLogin button{
+    text-transform: uppercase;
+    background-color: #CF4B83;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    font-weight: 800;
+}
+
+.posicaoFundo{
+
+    width: 50%;
+    height: 635px;
+    background-color: #8EB9AA;
+    border-radius: 55% 0% 0% 85% ;
+    border: white 3px solid;
+    display: flex;
+    align-items: center;
+}
+
+.fundo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px ;
+}
+
+.fundo p{
+    font-family: var(--font2);
+    color: white;
+    font-size: 35px;
+    text-align: right ;
+    font-weight: 600    ;
+    text-align: initial;
+}
+
+.fundo img{
+    width: 100%;
+    margin-bottom: -7.5px;
+}

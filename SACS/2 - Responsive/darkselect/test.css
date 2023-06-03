@@ -1,0 +1,24 @@
+div {
+  display: flex;
+  width: 100px;
+  height: 35px;
+  background-color: #01b574;
+  border-radius: 25px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+div img {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  align-self: center;
+}
+
+input:checked ~ div {
+  background-color: #cf4b83;
+}
+
+input:checked ~ div img {
+  background-color: #cf4b83;
+}
