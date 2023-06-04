@@ -1,0 +1,312 @@
+:root {
+  --font1: "Roboto Mono", monospace;
+  --branco: #ffffff;
+  --cinza: #e5e5e5;
+  --amarelo: #fca311;
+  --azul: #14213d;
+  --preto: #000000;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--font1);
+  color: var(--branco);
+  /* text-transform: lowercase; */
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: var(--preto);
+  box-shadow: 0px 25px 25px 5px rgba(0, 0, 0, 0.25);
+}
+
+.logoLink {
+  margin: 25px;
+}
+
+.logo {
+  height: 3rem;
+  max-height: 50px;
+  /* margin: 25px; */
+  padding: 5px;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  margin-right: 25px;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--branco);
+  padding: 10px;
+}
+
+.links a:nth-child(4) {
+  background-color: var(--amarelo);
+  color: var(--azul);
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+main {
+  background-color: var(--azul);
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.infoPrincipal {
+  display: flex;
+  width: 75%;
+  max-width: 770px;
+  justify-content: center;
+  background-color: var(--preto);
+  /* FLEX DIRECTION IMPORTANTE 
+  funciona para colocar itens abaixo um do outro*/
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* height: 50%; */
+  height: 300px;
+  max-height: 600px;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+}
+
+.infoPrincipal h1 {
+  font-size: 50px;
+  color: var(--amarelo);
+}
+
+.infoPrincipal p {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.infoPrincipal span {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.linksPrincipal {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10px;
+  margin-top: 10px;
+  /* flex-direction: column; */
+}
+
+.linksPrincipal a {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 900;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.infoPrincipal a:nth-child(1) {
+  background-color: var(--cinza);
+  color: var(--azul);
+}
+.infoPrincipal a:nth-child(2) {
+  background-color: var(--amarelo);
+  color: var(--azul);
+}
+
+.clientes {
+  background-color: var(--preto);
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+  /* height: 400px; */
+  /* width: 1300px; */
+}
+
+.clientes img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* margin: auto 0; */
+}
+
+.infoClientes {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+  font-size: 15px;
+}
+
+.clientesList {
+  margin-left: 25px;
+  font-size: 1.25rem;
+}
+
+.infoClientes a {
+  background-color: var(--amarelo);
+  color: var(--azul);
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 900;
+  max-width: 250px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.dev {
+  background-color: var(--preto);
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+  /* height: 400px; */
+  /* width: 1300px; */
+}
+
+.dev img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* margin: auto 0; */
+}
+
+.infoDev {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+  font-size: 15px;
+}
+
+.devList {
+  margin-left: 25px;
+  font-size: 1.25rem;
+}
+
+.infoDev a {
+  background-color: var(--amarelo);
+  color: var(--azul);
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 900;
+  max-width: 250px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.spacebetween {
+  height: 50px;
+}
+
+.titleServicos {
+  text-align: center;
+  background-color: var(--amarelo);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 900;
+  color: var(--azul);
+}
+
+.servicos {
+  display: grid;
+  margin-top: 50px;
+  gap: 25px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px 1fr;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--preto);
+
+  /* box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25); */
+  /* height: 400px; */
+  /* width: 1300px; */
+}
+
+.servicos h1 {
+  height: 50px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+}
+
+.petshop {
+  background-image: url(./img/cachorro.png);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: var(--preto); */
+  height: 500px;
+  border-radius: 10px;
+  padding: 25px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.pizzaria {
+  background-image: url(./img/carro.png);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--preto);
+  height: 500px;
+  border-radius: 10px;
+  padding: 25px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
