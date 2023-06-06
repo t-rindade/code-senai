@@ -116,7 +116,7 @@ header {
   border: none;
   padding: 10px;
   border-radius: 25px;
-  width: 50%;
+  width: 65%;
   margin-top: 25px;
   font-weight: 900;
   font-size: 1.25rem;
@@ -128,7 +128,7 @@ button:hover {
 }
 
 main {
-  background-image: url(./imgfolder/Economize\ energia\,\ reduza\ emissões\ GEE\,\ conecte-se\ com\ o\ futuro\ sustentável..png);
+  background-image: url(./imgfolder/bg.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 100vh;
@@ -153,4 +153,35 @@ main {
 .textcircle div h2 {
   padding: 10px;
   color: var(--branco);
+}
+
+@media screen and (max-width: 1020px) {
+  .login {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .loginform {
+    margin-right: 25px;
+  }
+
+  main {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .loginform {
+    height: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logodiv {
+    margin: 0px;
+  }
 }
