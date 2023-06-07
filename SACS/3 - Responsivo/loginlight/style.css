@@ -1,0 +1,187 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+:root {
+  --branco: #f4f4f4;
+  --verde: #01b574;
+  --cinza: #8f8f8f;
+  --rosa: #cf4b83;
+  --verdeclaro: rgba(1, 181, 116, 0.1);
+}
+
+header {
+  display: flex;
+  height: 100px;
+}
+
+.logodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.logodiv img {
+  height: 75px;
+  max-height: 75%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  height: calc(100vh - 100px);
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: justify;
+  background-color: var(--branco);
+  border-radius: 25px;
+  padding: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+  box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.25);
+  height: 85%;
+  /* width: 85%; */
+}
+
+.loginform h1 {
+  color: var(--verde);
+  padding: 10px;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.loginform p {
+  color: var(--cinza);
+  padding: 10px;
+}
+
+.formlogin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.formlogin input {
+  background-color: var(--verdeclaro);
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.formlogin input:focus {
+  outline: solid var(--verde);
+}
+
+.formlogin input::placeholder {
+  color: var(--cinza);
+}
+
+.linkdiv {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.formlogin a {
+  color: var(--verde);
+  padding: 10px;
+}
+
+.formlogin button {
+  background-color: var(--verde);
+  color: var(--branco);
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  width: 65%;
+  margin-top: 25px;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  background-color: var(--rosa);
+  cursor: pointer;
+}
+
+main {
+  background-image: url(../zimg/bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  align-items: center;
+}
+
+.textcircle {
+  display: flex;
+  justify-content: right;
+  align-items: top;
+}
+
+.textcircle div {
+  display: flex;
+  width: 55%;
+  height: 100%;
+  text-align: justify;
+  font-size: 1.25rem;
+  margin-right: 25px;
+}
+
+.textcircle div h2 {
+  padding: 10px;
+  color: var(--branco);
+}
+
+@media screen and (max-width: 1023px) {
+  .login {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .loginform {
+    margin-right: 25px;
+  }
+
+  main {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .loginform {
+    height: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logodiv {
+    margin: 0px;
+  }
+}

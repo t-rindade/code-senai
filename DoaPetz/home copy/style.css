@@ -1,0 +1,43 @@
+:root {
+  --cinza: #f5f5f5
+  --branco: #fbfbfb
+  --laranjaf: #ff6e22
+  --pretof: #33303e
+  --pretom: #4e4b59
+
+  --fonte1: 'Mochiy Pop One', sans-serif;
+  --fonte2: 'Raleway', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--fonte2);
+}
+
+.headerzin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: var(--cinza);
+}
+
+.containerlogo {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  margin-left: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.linksheader {
+  margin-right: 25px;
+}
