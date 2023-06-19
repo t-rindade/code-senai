@@ -20,7 +20,7 @@
 }
 
 nav {
-  width: 10%;
+  width: 35%;
   height: 100vh;
 }
 
@@ -98,7 +98,7 @@ ul {
 }
 
 nav:hover {
-  width: 20%;
+  width: 75%;
 }
 
 nav:hover .text {
@@ -122,8 +122,39 @@ nav:hover a {
   justify-content: left;
 }
 
-@media screen and (max-width: 990px) {
+.geral {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  background-color: var(--branco);
+  gap: 10px;
+}
+
+.graphs {
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  width: 100%;
+  height: 100%;
+  background-color: var(--rosa);
+}
+
+.monthsChart {
+  width: 100%;
+  height: 100%;
+  background-color: var(--cpreto);
+  border-radius: 50px;
+
+  /* 
+  background-image: url(../zimg/LogoSASCBasic1\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  align-items: center;
+  */
+}
+
+@media screen and (max-width: 850px) {
   nav:hover {
-    width: 30%;
+    width: 100%;
   }
 }
