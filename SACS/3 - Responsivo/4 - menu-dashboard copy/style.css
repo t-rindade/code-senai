@@ -96,6 +96,10 @@ ul {
   background-color: var(--verde);
 }
 
+.buttonside:nth-child(7):hover {
+  background-color: var(--rosa);
+}
+
 .text {
   display: none;
 }
@@ -123,12 +127,6 @@ nav:hover a {
   justify-content: left;
 }
 
-nav:hover a {
-  align-items: left;
-  text-align: left;
-  justify-content: left;
-}
-
 .geral {
   /* margin-left: 10%; */
   background-color: var(--branco);
@@ -144,6 +142,7 @@ nav:hover a {
   grid-template-rows: 1fr 1fr 1fr;
   padding: 50px;
   gap: 25px;
+  grid
 }
 
 .graphMonth {
@@ -188,6 +187,11 @@ nav:hover a {
 .sacsbutton2 {
   display: none;
 }
+
+.graphMonth img {
+  
+}
+
 
 @media screen and (max-width: 1280px) {
   nav:hover {
