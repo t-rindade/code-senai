@@ -142,24 +142,23 @@ nav:hover a {
   grid-template-rows: 1fr 1fr 1fr;
   padding: 50px;
   gap: 25px;
-  grid
 }
 
-.graphMonth {
+.Month {
   border-radius: 25px;
   background-color: var(--preto);
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.graphDonutleft {
+.Donutleft {
   border-radius: 25px;
   background-color: var(--preto);
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
-.graphBarsright {
+.Barsright {
   border-radius: 25px;
   background-color: var(--preto);
   grid-column-start: 2;
@@ -168,14 +167,14 @@ nav:hover a {
   grid-row-end: 3;
 }
 
-.graphBarsleft {
+.Barsleft {
   border-radius: 25px;
   background-color: var(--preto);
   grid-row-start: 3;
   grid-row-end: 4;
 }
 
-.graphDonutright {
+.Donutright {
   border-radius: 25px;
   background-color: var(--preto);
   grid-column-start: 2;
@@ -188,11 +187,6 @@ nav:hover a {
   display: none;
 }
 
-.graphMonth img {
-  
-}
-
-
 @media screen and (max-width: 1280px) {
   nav:hover {
     width: 40%;
@@ -204,7 +198,79 @@ nav:hover a {
     display: none;
   }
 
+  .mobilehead {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100vh;
+  }
+
   .sacsbutton2 {
     display: flex;
+    margin: 25px;
+    font-size: 25px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sacsbutton2 span {
+    margin-left: 10px;
+  }
+
+  .geral {
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    padding: 5px;
+    width: 100%;
+  }
+
+  .graph {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Month {
+    border-radius: 25px;
+    background-color: var(--preto);
+    grid-column-start: auto;
+    grid-column-end: auto;
+  }
+
+  .Donutleft {
+    border-radius: 25px;
+    background-color: var(--preto);
+    grid-row-start: auto;
+    grid-row-end: auto;
+  }
+
+  .Barsright {
+    border-radius: 25px;
+    background-color: var(--preto);
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-row-start: auto;
+    grid-row-end: auto;
+  }
+
+  .Barsleft {
+    border-radius: 25px;
+    background-color: var(--preto);
+    grid-row-start: auto;
+    grid-row-end: auto;
+  }
+
+  .Donutright {
+    border-radius: 25px;
+    background-color: var(--preto);
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-row-start: auto;
+    grid-row-end: auto;
   }
 }
