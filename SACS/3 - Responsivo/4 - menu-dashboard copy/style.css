@@ -135,7 +135,7 @@ nav:hover .lista {
   /* margin-left: 10%; */
   background-color: var(--branco);
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .grid {
@@ -161,11 +161,11 @@ nav:hover .lista {
   background-image: url(../zimg/Prancheta\ 1.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100%;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 1;
 }
 
 /* 
@@ -205,8 +205,6 @@ nav:hover .lista {
 .sacsbutton2 {
   display: none;
 }
-
-
 
 @media screen and (max-width: 1280px) {
   nav:hover {
