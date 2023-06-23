@@ -156,22 +156,29 @@ nav:hover .lista {
 }
 
 .Month {
-  border-radius: 25px;
+  /* border-radius: 25px; */
   /* background-color: var(--preto); */
+  background-image: url(../zimg/Prancheta\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
   grid-column-start: 1;
   grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
+/* 
 .Donutleft {
   border-radius: 25px;
-  /* background-color: var(--preto); */
+
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
 .Barsright {
   border-radius: 25px;
-  /* background-color: var(--preto); */
+
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -180,29 +187,26 @@ nav:hover .lista {
 
 .Barsleft {
   border-radius: 25px;
-  /* background-color: var(--preto); */
+
   grid-row-start: 3;
   grid-row-end: 4;
 }
 
 .Donutright {
   border-radius: 25px;
-  /* background-color: var(--preto); */
+
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+*/
 
 .sacsbutton2 {
   display: none;
 }
 
-.Month img:nth-child(1) {
-  align-self: center;
-  height: auto;
-  width: 35%;
-}
+
 
 @media screen and (max-width: 1280px) {
   nav:hover {
