@@ -20,6 +20,7 @@
 }
 
 body {
+  background-color: var(--branco);
   display: flex;
   /* width: 100vh; */
   height: 1555px;
@@ -49,7 +50,7 @@ ul {
   display: flex;
   position: fixed;
   flex-direction: column;
-  height: 80%;
+  /* height: 80%; */
   width: 8%;
   justify-content: space-between;
   padding: 10px;
@@ -156,29 +157,32 @@ nav:hover .lista {
 }
 
 .Month {
-  /* border-radius: 25px; */
   /* background-color: var(--preto); */
-  background-image: url(../zimg/Prancheta\ 1.png);
+  background-image: url(../zimg/gif5.gif);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 85%;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 1;
 }
 
-/* 
 .Donutleft {
-  border-radius: 25px;
-
+  /* border-radius: 25px; */
+  background-image: url(../zimg/donut2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
 .Barsright {
-  border-radius: 25px;
-
+  background-image: url(../zimg/colunaagrupadaanim_AdobeExpress.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -186,24 +190,31 @@ nav:hover .lista {
 }
 
 .Barsleft {
-  border-radius: 25px;
-
+  background-image: url(../zimg/bars.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
   grid-row-start: 3;
   grid-row-end: 4;
 }
 
 .Donutright {
-  border-radius: 25px;
-
+  background-image: url(../zimg/donut2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
 }
-*/
 
 .sacsbutton2 {
   display: none;
+}
+
+.lista a:nth-child(2) {
+  background-color: var(--verde);
 }
 
 @media screen and (max-width: 1280px) {
@@ -256,22 +267,18 @@ nav:hover .lista {
   }
 
   .Month {
-    border-radius: 25px;
-    background-color: var(--preto);
     grid-column-start: auto;
     grid-column-end: auto;
   }
 
   .Donutleft {
-    border-radius: 25px;
-    background-color: var(--preto);
+    background-size: 50%;
     grid-row-start: auto;
     grid-row-end: auto;
   }
 
   .Barsright {
-    border-radius: 25px;
-    background-color: var(--preto);
+    background-size: 50%;
     grid-column-start: auto;
     grid-column-end: auto;
     grid-row-start: auto;
@@ -279,15 +286,13 @@ nav:hover .lista {
   }
 
   .Barsleft {
-    border-radius: 25px;
-    background-color: var(--preto);
+    background-size: 50%;
     grid-row-start: auto;
     grid-row-end: auto;
   }
 
   .Donutright {
-    border-radius: 25px;
-    background-color: var(--preto);
+    background-size: 50%;
     grid-column-start: auto;
     grid-column-end: auto;
     grid-row-start: auto;
