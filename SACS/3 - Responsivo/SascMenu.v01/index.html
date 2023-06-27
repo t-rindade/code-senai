@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu - Sasc</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <label onclick="claroEscuro()">
+            <input type="checkbox" id="checkbox" class="checkbox">
+            <span id="checkbox2">
+                <i></i>
+            </span>
+        </label>
+    </header>
+
+    <main>
+        <section class="menu">
+            <nav class="menu_lateral">
+
+                <div class="btn_expandir">
+                    <span> <i class="size2 bi bi-list">S A S C</i> </span>
+                    <hr> <!--linha-->
+                </div>
+
+                <div class="menu_conteudo">
+
+                    <ul>
+
+                        <div class="item_menu">
+
+
+                            <li class="espaco2">
+                                <a href="#">
+                                    <span class="icon size1"><i class="bi bi-bar-chart-line"></i></span>
+                                    <span class="txt_link size1">Visão Geral</span>
+                                </a>
+                            </li>
+
+                            <li class="pagAtual espaco2">
+                                <a href="#">
+                                    <span class="icon size1 IconAtual"><i class="bi bi-columns-gap"></i></span>
+                                    <span class="txt_link size1">Equipamentos</span>
+                                </a>
+                            </li>
+
+                            <li class="espaco2">
+                                <a href="#">
+                                    <span class="icon size1"><i class="bi bi-clipboard-data"></i></span>
+                                    <span class="txt_link size1">Dashboards</span>
+
+                                </a>
+                            </li>
+
+                            <li class="espaco2">
+                                <a href="#">
+                                    <span class="icon size1"><i class="bi bi-people"></i></span>
+                                    <span class="txt_link size1">Usuários</span>
+                                </a>
+                            </li>
+
+                            <li class="espaco2">
+                                <a href="#">
+                                    <span class="icon size1"><i class="bi bi-gear"></i></span>
+                                    <span class="txt_link size1">Configurações</span>
+                                </a>
+                            </li>
+                        </div>
+
+                        <li class="espaco2 btnSair ">
+                            <a href="../home/index.html">
+                                <span class="icon size1"><i class="bi bi-box-arrow-right"></i></span>
+                                <span class="txt_link size1">Sair</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
+        </section>
+
+        <section class="grid">
+            <div class="graph Month">
+            </div>
+
+            <div class="graph Donutleft">
+            </div>
+
+            <div class="graph Barsright">
+            </div>
+
+            <div class="graph Barsleft">
+            </div>
+
+            <div class="graph Donutright">
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

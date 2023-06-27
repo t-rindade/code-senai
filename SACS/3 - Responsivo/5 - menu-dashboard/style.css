@@ -20,6 +20,10 @@
 }
 
 body {
+<<<<<<< HEAD
+  background-color: var(--branco);
+=======
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
   display: flex;
   /* width: 100vh; */
   height: 1555px;
@@ -160,7 +164,11 @@ nav:hover .lista {
   background-image: url(../zimg/gif5.gif);
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
+  background-size: 85%;
+=======
   background-size: 100%;
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -172,7 +180,11 @@ nav:hover .lista {
   background-image: url(../zimg/donut2.gif);
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
+  background-size: 90%;
+=======
   background-size: 100%;
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
   grid-row-start: 2;
   grid-row-end: 3;
 }
@@ -181,7 +193,11 @@ nav:hover .lista {
   background-image: url(../zimg/colunaagrupadaanim_AdobeExpress.gif);
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
+  background-size: 90%;
+=======
   background-size: 100%;
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -189,6 +205,13 @@ nav:hover .lista {
 }
 
 .Barsleft {
+<<<<<<< HEAD
+  background-image: url(../zimg/bars.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+=======
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -197,7 +220,11 @@ nav:hover .lista {
   background-image: url(../zimg/donut2.gif);
   background-position: center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
+  background-size: 90%;
+=======
   background-size: 100%;
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -208,6 +235,13 @@ nav:hover .lista {
   display: none;
 }
 
+<<<<<<< HEAD
+.lista a:nth-child(2) {
+  background-color: var(--verde);
+}
+
+=======
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
 @media screen and (max-width: 1280px) {
   nav:hover {
     width: 40%;
@@ -258,15 +292,21 @@ nav:hover .lista {
   }
 
   .Month {
+<<<<<<< HEAD
+=======
     /* border-radius: 25px; */
     /* background-color: var(--preto); */
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
     grid-column-start: auto;
     grid-column-end: auto;
   }
 
   .Donutleft {
+<<<<<<< HEAD
+=======
     /* border-radius: 25px; */
     /* background-color: var(--preto); */
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
     background-size: 50%;
     grid-row-start: auto;
     grid-row-end: auto;
@@ -281,15 +321,23 @@ nav:hover .lista {
   }
 
   .Barsleft {
+<<<<<<< HEAD
+    background-size: 50%;
+=======
     border-radius: 25px;
     background-color: var(--preto);
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
     grid-row-start: auto;
     grid-row-end: auto;
   }
 
   .Donutright {
+<<<<<<< HEAD
+    background-size: 50%;
+=======
     border-radius: 25px;
     background-color: var(--preto);
+>>>>>>> b6b9fc7adbeb16a5a5b33d19dd46738897b99d9c
     grid-column-start: auto;
     grid-column-end: auto;
     grid-row-start: auto;
