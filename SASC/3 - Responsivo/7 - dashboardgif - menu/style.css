@@ -26,11 +26,12 @@ body {
   display: flex;
   /* width: 100vh; */
   height: 1555px;
-  /* width: 100vw; */
+  width: 100%;
 }
 
 .geral {
   /* margin-left: 10%; */
+
   background-color: var(--branco);
   width: 100%;
   height: 100%;
@@ -115,16 +116,11 @@ body {
 }
 
 @media screen and (max-width: 680px) {
-  nav {
-    display: none;
-  }
-
   .mobilehead {
-    width: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
-    width: 100vh;
   }
 
   .sacsbutton2 {
@@ -190,6 +186,10 @@ body {
     grid-row-start: auto;
     grid-row-end: auto;
   }
+}
+
+header {
+  width: 100%;
 }
 
 /* --------------------------------------------------------------------------------------------- */
@@ -357,21 +357,26 @@ hr {
 }
 
 @media screen and (max-width: 680px) {
-  main {
+  .geral {
+    width: 100%;
     display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
+    height: 90%;
   }
 
   .menu {
-    width: 100%;
-    height: 10vh;
     position: fixed;
+    width: 100%;
+    height: 10%;
     bottom: 0;
   }
 
   .menu_lateral {
     padding: 0;
-    height: 10vh;
+    /* height: 10vh; */
     width: 100%;
     border-radius: 25px 25px 0 0;
   }
@@ -380,14 +385,14 @@ hr {
     align-items: center;
     padding: 0;
     width: 100%;
-    height: 10vh;
+    /* height: 10vh; */
   }
 
   .menu_conteudo ul {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 10vh;
+    /* height: 10vh; */
   }
 
   .item_menu {
@@ -413,7 +418,7 @@ hr {
   }
 
   .IconAtual {
-    color: #cf4b83;
+    color: var(--verde);
   }
 
   .btnSair {
