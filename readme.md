@@ -1,7 +1,5 @@
 # 1º Semestre
-Introdução à redes, hardware, virtualização e programação.
-<br>
-<div align="left">
+<div>
   <h2>Sistemas Operacionais</h2>
 
   [![Ubuntu](https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg?link=https://google.com)](https://google.com)
@@ -16,9 +14,8 @@ Introdução à redes, hardware, virtualização e programação.
   ![](https://img.shields.io/badge/Domínios-CA0100?logoColor=white&style=for-the-badge)
   ![](https://img.shields.io/badge/Compartilhamento-CA0100?logoColor=white&style=for-the-badge)
   ![](https://img.shields.io/badge/Backup-CA0100?logoColor=white&style=for-the-badge)
-</div>
-<br>
-<div align="right">
+
+
   <h2>Virtualização</h2>
 
  <div>
@@ -40,7 +37,9 @@ Introdução à redes, hardware, virtualização e programação.
   ![](https://img.shields.io/badge/Domínios-CA0100?logoColor=white&style=for-the-badge)
   ![](https://img.shields.io/badge/Compartilhamento-CA0100?logoColor=white&style=for-the-badge)
   ![](https://img.shields.io/badge/Backup-CA0100?logoColor=white&style=for-the-badge)
-</div>
+ </div>
+
+
 <br>
 <div align="center">
   <h2>Hardware & Redes</h2>
